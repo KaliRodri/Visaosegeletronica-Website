@@ -1872,7 +1872,7 @@
     /* Header begins here */
 
     header{
-      background-image: url(/imagens/header-img.svg);
+      background-image: url(imagens/header-img.svg);
       background-repeat: repeat-x;
       background-size: contain;
       background-position: top right;
