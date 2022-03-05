@@ -1,0 +1,2469 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: Alatsi;
+    src: url(/fonts/Alatsi-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Aldrich;
+    src: url(/fonts/Aldrich-Regular.ttf);
+  }
+  
+  :root{
+    --main-bg-color: #202122;
+    --side-bg-color: #00B628;
+  }
+
+  /* Header begins here */
+
+  header{
+    background-image: url(/imagens/header-img.svg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px; 
+  }
+  
+  header .top{
+    display: none;
+  }
+
+  header .menu-sm{
+   display: flex;
+   justify-content: space-between;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-color: var(--main-bg-color);
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: Alatsi;
+    color:#00B628;
+    font-size: 2em;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+    text-decoration: underline white; 
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
+    color:#00B628;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
+    color:#00B628;
+    font-family: Alatsi;
+    font-size: 1.9em;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
+    border: 1px solid white;
+    background-color: #00B628;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
+    transform: scale(1.05);
+    border-color: #00B628;
+    background-color: transparent;
+    color: #00B628;
+    
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header h5{
+    font-size:2.2em;
+    
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-image: url(/imagens/fundo-sm2.png);
+    
+  }
+
+  /* Header ends here */
+
+  /* Main part begins here */
+
+  main article{
+    background-color: #c4c4c410;
+    background-image: url(/imagens/fundo-sm2.png);
+    background-size: cover;
+    width: 100%;
+  }
+
+  main article .text1{ 
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #DCDCDB;
+    padding-bottom: 6px;
+  }
+
+  main article .text1 .span1, main article .text1 .span2, main article .text1 .span3{
+    font-size: 2em;
+  }
+
+  main article .text1 .span2 p{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  main article .text1 section{
+    font-family: Alatsi;
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  main article .text1 section p img{
+    width: 25px;
+    height: 25px;
+  }
+
+  main article .text1 .hero-text{
+   display: none;
+   
+    
+  }
+
+  main article .text1 section {
+    margin-top: 250px;
+  }
+
+  /* Main part ends here */
+
+  /* Second part begins here */
+  
+  .WhoWeAre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .WhoWeAre h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 2.8em;
+  }
+
+  
+  .WhoWeAre p{
+    color: #48494A;
+    font-family: Alatsi;
+    padding: 15px;
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+   /* Second part ends here */
+
+   /* Third part begins here */
+  
+   .details{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 100px;
+     font-family: Alatsi;
+   }
+
+   .details h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 2.8em;
+    
+   }
+
+   .details .capsule .money, .details .capsule .contract, .details .capsule .relation{
+    text-align: center;
+    margin-top: 25px;
+   }
+
+   .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
+    color: #403A34;
+    font-size: 1.7em;
+   }
+
+   .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
+     color: #9F9D9D;
+     font-size: 1.4em;
+     padding: 3px;
+   }
+
+   
+
+   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+    display: flex;
+    margin: auto;
+   }
+   
+  .services{
+    display: none;
+   }
+  
+  .services-sm h2, .maps h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 2.8em;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .maps div iframe{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    border-radius: 7px
+  }
+
+  /* Third part ends here */
+
+  /* Fourth part begins here */
+
+  .text{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Alatsi;
+    font-size: 2.5em;
+    margin-bottom: 30px ;
+  }
+
+  .text a{
+    color: #00B628;
+    text-decoration: none;
+  }
+
+  .text a:hover, text a:active{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  /* Fourth part ends here */
+
+  /* Fifth part begins here */
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  
+  margin: auto;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 50px;
+  font-family: Alatsi;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.flip-card-back h2{
+  padding-top: 15px;
+}
+
+.flip-card-front img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.flip-card-front .swipe{
+  display: block;
+  background-color: var(--main-bg-color);
+  padding: 8px;
+  color: white;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: var(--main-bg-color);
+  transform: rotateY(180deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+
+}
+
+.flip-card-back .links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.flip-card-back .links a img{
+  color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.flip-card-back p a{
+  text-decoration: none;
+  background-color: #00B628;
+  color: white;
+  padding: 5px;
+  padding: 41%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  
+}
+
+.flip-card-back p a:active{
+  border: 1px solid #00B628;
+  background-color: transparent;
+  color: #00B628;
+}
+
+/* Fifth part ends here */
+
+  /* Footer part begins here */
+
+  footer .footer-content {
+    background-image: url(/imagens/footer-sm.png);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #BBBBBB;
+    font-size: 1.2em;
+  }
+
+  footer .footer-content h4{
+    color: #FFFFFF;
+  }
+
+  footer .footer-content .address, footer .footer-content .team, footer .footer-content .contact, footer .footer-content .follow, footer .footer-content .footer-services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer .footer-content .line{
+    width: 70%;
+    display: flex;
+    margin: auto;
+  }
+
+  footer .footer-content .adjust{
+    display: none;
+  }
+
+  footer .footer-content .contact .contact-icons, footer .footer-content .follow .follow-icons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  footer .footer-content .contact .contact-icons a, footer .footer-content .follow .follow-icons a{
+    padding: 10px;
+  }
+
+  footer .footer-content .team p span{
+    color: #00B628;
+  }
+
+  footer .footer-content .contact .contact-icons a img, footer .footer-content .follow .follow-icons a img{
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: Alatsi;
+    src: url(/fonts/Alatsi-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Aldrich;
+    src: url(/fonts/Aldrich-Regular.ttf);
+  }
+  
+  :root{
+    --main-bg-color: #202122;
+    --side-bg-color: #00B628;
+  }
+
+  /* Header begins here */
+
+  header{
+    background-image: url(/imagens/header-img.svg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px; 
+  }
+  
+  header .top{
+    display: none;
+  }
+
+  header .menu-sm{
+   display: flex;
+   justify-content: space-between;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-color: var(--main-bg-color);
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: Alatsi;
+    color:#00B628;
+    font-size: 3em;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+    text-decoration: underline white; 
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
+    color:#00B628;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
+    color:#00B628;
+    font-family: Alatsi;
+    font-size: 3em;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
+    border: 1px solid white;
+    background-color: #00B628;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
+    transform: scale(1.05);
+    border-color: #00B628;
+    background-color: transparent;
+    color: #00B628;
+    
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header h5{
+    font-size:2.9em;
+    
+  }
+
+  header .menu-sm .offcanvas .btn-close{
+    width: 50px;
+    height: 10px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-image: url(/imagens/fundo-sm2.png);
+    
+  }
+
+  /* Header ends here */
+
+  /* Main part begins here */
+
+  main article{
+    background-color: #c4c4c410;
+    background-image: url(/imagens/fundo-sm2.png);
+    background-size: cover;
+    width: 100%;
+  }
+
+  main article .text1{ 
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #DCDCDB;
+    padding-bottom: 6px;
+  }
+
+  main article .text1 .span1, main article .text1 .span2, main article .text1 .span3{
+    font-size: 3em;
+  }
+
+  main article .text1 .span2 p{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  main article .text1 section{
+    font-family: Alatsi;
+    text-align: left;
+    font-size: 2.4em;
+  }
+
+  main article .text1 section p img{
+    width: 48px;
+    height: 48px;
+  }
+
+  main article .text1 .hero-text{
+   display: none;
+   
+    
+  }
+
+  main article .text1 section {
+    margin-top: 250px;
+  }
+
+  /* Main part ends here */
+
+  /* Second part begins here */
+  
+  .WhoWeAre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .WhoWeAre h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 3.8em;
+  }
+
+  
+  .WhoWeAre p{
+    color: #48494A;
+    font-family: Alatsi;
+    padding: 15px;
+    font-size: 2em;
+    text-align: center;
+  }
+
+   /* Second part ends here */
+
+   /* Third part begins here */
+  
+   .details{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 100px;
+     font-family: Alatsi;
+   }
+
+   .details h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 3.8em;
+    
+   }
+
+   .details .capsule .money, .details .capsule .contract, .details .capsule .relation{
+    text-align: center;
+    margin-top: 25px;
+   }
+
+   .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
+    color: #403A34;
+    font-size: 2.7em;
+   }
+
+   .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
+     color: #9F9D9D;
+     font-size: 2.4em;
+     padding: 3px;
+   }
+
+   
+
+   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+    display: flex;
+    margin: auto;
+   }
+   
+  .services{
+    display: none;
+   }
+  
+  .services-sm h2, .maps h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 3.8em;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .maps div iframe{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    border-radius: 7px
+  }
+
+  /* Third part ends here */
+
+  /* Fourth part begins here */
+
+  .text{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Alatsi;
+    font-size: 3.5em;
+    margin-bottom: 30px ;
+  }
+
+  .text a{
+    color: #00B628;
+    text-decoration: none;
+  }
+
+  .text a:hover, text a:active{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  /* Fourth part ends here */
+
+  /* Fifth part begins here */
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  
+  background-color: transparent;
+  width: 470px;
+  height: 270px;
+  
+  margin: auto;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 100px;
+  font-family: Alatsi;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.flip-card-back h2{
+  padding-top: 15px;
+  font-size: 2.8em;
+}
+
+.flip-card-front h2{
+  padding-top: 15px;
+  font-size: 2em;
+}
+
+.flip-card-front .title{
+  font-size: 1.5em;
+}
+
+.flip-card-front img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.flip-card-front .swipe{
+  display: block;
+  background-color: var(--main-bg-color);
+  padding: 8px;
+  color: white;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 1.8em;
+  margin-top: 25px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: var(--main-bg-color);
+  transform: rotateY(180deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+
+}
+
+.flip-card-back .links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.flip-card-back .links a img{
+  color: black;
+  width: 55px;
+  height: 55px;
+}
+
+.flip-card-back p a{
+  text-decoration: none;
+  background-color: #00B628;
+  color: white;
+  padding: 5px;
+  padding: 39.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 1.8em;
+}
+
+.flip-card-back p a:active{
+  border: 1px solid #00B628;
+  background-color: transparent;
+  color: #00B628;
+}
+
+/* Fifth part ends here */
+
+  /* Footer part begins here */
+
+  footer .footer-content {
+    background-image: url(/imagens/footer-sm.png);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #BBBBBB;
+    font-size: 1.9em;
+  }
+
+  footer .footer-content h4{
+    color: #FFFFFF;
+    font-size: 1.2em;
+  }
+
+  footer .footer-content .address, footer .footer-content .team, footer .footer-content .contact, footer .footer-content .follow, footer .footer-content .footer-services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer .footer-content .line{
+    width: 70%;
+    display: flex;
+    margin: auto;
+  }
+
+  footer .footer-content .adjust{
+    display: none;
+  }
+
+  footer .footer-content .contact .contact-icons, footer .footer-content .follow .follow-icons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  footer .footer-content .contact .contact-icons a, footer .footer-content .follow .follow-icons a{
+    padding: 10px;
+  }
+
+  footer .footer-content .team p span{
+    color: #00B628;
+  }
+
+  footer .footer-content .contact .contact-icons a img, footer .footer-content .follow .follow-icons a img{
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: Alatsi;
+    src: url(/fonts/Alatsi-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Aldrich;
+    src: url(/fonts/Aldrich-Regular.ttf);
+  }
+  
+  :root{
+    --main-bg-color: #202122;
+    --side-bg-color: #00B628;
+  }
+
+  /* Header begins here */
+
+  header{
+    background-image: url(/imagens/header-img.svg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px; 
+  }
+  
+  header .top{
+    display: none;
+  }
+
+  header .menu-sm{
+   display: flex;
+   justify-content: space-between;
+  }
+
+  header .menu-sm .logo{
+     width: 300px;
+     height: 140px;
+  }
+
+  header .menu-sm .menu-img{
+    width: 120px;
+    height: 140px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-color: var(--main-bg-color);
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: Alatsi;
+    color:#00B628;
+    font-size: 5em;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+    text-decoration: underline white; 
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
+    color:#00B628;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
+    color:#00B628;
+    font-family: Alatsi;
+    font-size: 4.2em;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
+    border: 1px solid white;
+    background-color: #00B628;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
+    transform: scale(1.05);
+    border-color: #00B628;
+    background-color: transparent;
+    color: #00B628;
+    
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header h5{
+    font-size:3.9em;
+    
+  }
+
+  header .menu-sm .offcanvas .btn-close{
+    width: 50px;
+    height: 10px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-image: url(/imagens/fundo-sm2.png);
+    
+  }
+
+  /* Header ends here */
+
+  /* Main part begins here */
+
+  main article{
+    background-color: #c4c4c410;
+    background-image: url(/imagens/fundo-sm2.png);
+    background-size: cover;
+    width: 100%;
+  }
+
+  main article .text1{ 
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #DCDCDB;
+    padding-bottom: 6px;
+  }
+
+  main article .text1 .span1, main article .text1 .span2, main article .text1 .span3{
+    font-size: 4em;
+  }
+
+  main article .text1 .span2 p{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  main article .text1 section{
+    font-family: Alatsi;
+    text-align: left;
+    font-size: 3.4em;
+  }
+
+  main article .text1 section p img{
+    width: 75px;
+    height: 75px;
+  }
+
+  main article .text1 .hero-text{
+   display: none;
+   
+    
+  }
+
+  main article .text1 section {
+    margin-top: 250px;
+  }
+
+  /* Main part ends here */
+
+  /* Second part begins here */
+  
+  .WhoWeAre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .WhoWeAre h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 5.8em;
+  }
+
+  
+  .WhoWeAre p{
+    color: #48494A;
+    font-family: Alatsi;
+    padding: 15px;
+    font-size: 2.8em;
+    text-align: center;
+  }
+
+   /* Second part ends here */
+
+   /* Third part begins here */
+  
+   .details{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 100px;
+     font-family: Alatsi;
+   }
+
+   .details h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 5.8em;
+    
+   }
+
+   .details .capsule .money, .details .capsule .contract, .details .capsule .relation{
+    text-align: center;
+    margin-top: 25px;
+   }
+
+   .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
+    color: #403A34;
+    font-size: 3.7em;
+   }
+
+   .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
+     color: #9F9D9D;
+     font-size: 3.4em;
+     padding: 2.8px;
+   }
+
+   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+     width: 300px;
+     height: 300px;
+   }
+
+   
+
+   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+    display: flex;
+    margin: auto;
+   }
+   
+  .services{
+    display: none;
+   }
+  
+  .services-sm h2, .maps h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 5.8em;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .maps div iframe{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    height: 1000px;
+    border-radius: 7px
+  }
+
+  /* Third part ends here */
+
+  /* Fourth part begins here */
+
+  .text{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Alatsi;
+    font-size: 5.5em;
+    margin-bottom: 30px ;
+  }
+
+  .text a{
+    color: #00B628;
+    text-decoration: none;
+  }
+
+  .text a:hover, text a:active{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  /* Fourth part ends here */
+
+  /* Fifth part begins here */
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  
+  background-color: transparent;
+  width: 670px;
+  height: 470px;
+  
+  margin: auto;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 100px;
+  font-family: Alatsi;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+
+.flip-card-front h2{
+  padding-top: 15px;
+  font-size: 3em;
+}
+
+.flip-card-front .title{
+  font-size: 2.5em;
+}
+
+.flip-card-front img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.flip-card-front .swipe{
+  display: block;
+  background-color: var(--main-bg-color);
+  padding: 18px;
+  color: white;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 2.8em;
+  margin-top: 45px;
+  
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: var(--main-bg-color);
+  transform: rotateY(180deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+
+}
+
+.flip-card-back h2{
+  padding-top: 15px;
+  font-size: 4.5em;
+}
+
+
+.flip-card-back .links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.flip-card-back .links a img{
+  color: black;
+  width: 85px;
+  height: 85px;
+}
+
+.flip-card-back p a{
+  text-decoration: none;
+  background-color: #00B628;
+  color: white;
+  padding: 5px;
+  padding: 38.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 2.8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-back p a:active{
+  border: 1px solid #00B628;
+  background-color: transparent;
+  color: #00B628;
+}
+
+/* Fifth part ends here */
+
+  /* Footer part begins here */
+
+  footer .footer-content {
+    background-image: url(/imagens/footer-sm.png);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #BBBBBB;
+    font-size: 2.5em;
+  }
+
+  footer .footer-content h4{
+    color: #FFFFFF;
+    font-size: 1.4em;
+  }
+
+  footer .footer-content .address, footer .footer-content .team, footer .footer-content .contact, footer .footer-content .follow, footer .footer-content .footer-services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer .footer-content .line{
+    width: 70%;
+    display: flex;
+    margin: auto;
+  }
+
+  footer .footer-content .adjust{
+    display: none;
+  }
+
+  footer .footer-content .contact .contact-icons, footer .footer-content .follow .follow-icons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  footer .footer-content .contact .contact-icons a, footer .footer-content .follow .follow-icons a{
+    padding: 10px;
+  }
+
+  footer .footer-content .team p span{
+    color: #00B628;
+  }
+
+  footer .footer-content .contact .contact-icons a img, footer .footer-content .follow .follow-icons a img{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: Alatsi;
+    src: url(/fonts/Alatsi-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Aldrich;
+    src: url(/fonts/Aldrich-Regular.ttf);
+  }
+  
+  :root{
+    --main-bg-color: #202122;
+    --side-bg-color: #00B628;
+  }
+
+  /* Header begins here */
+
+  header{
+    background-image: url(/imagens/header-img.svg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px; 
+  }
+  
+  header .top{
+    display: none;
+  }
+
+  header .menu-sm{
+   display: flex;
+   justify-content: space-between;
+  }
+
+  header .menu-sm .logo{
+     width: 300px;
+     height: 140px;
+  }
+
+  header .menu-sm .menu-img{
+    width: 120px;
+    height: 140px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-color: var(--main-bg-color);
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-family: Alatsi;
+    color:#00B628;
+    font-size: 6em;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  
+
+  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+    text-decoration: underline white; 
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
+    color:#00B628;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
+    color:#00B628;
+    font-family: Alatsi;
+    font-size: 5.2em;
+    width: 100%;
+    margin-bottom: -20px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
+    border: 1px solid white;
+    background-color: #00B628;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
+    text-decoration: none;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
+    transform: scale(1.05);
+    border-color: #00B628;
+    background-color: transparent;
+    color: #00B628;
+    
+  }
+
+  header .menu-sm .offcanvas .offcanvas-header h5{
+    font-size:4.9em;
+    
+  }
+
+  header .menu-sm .offcanvas .btn-close{
+    width: 50px;
+    height: 10px;
+  }
+
+  header .menu-sm .offcanvas .offcanvas-body{
+    background-image: url(/imagens/fundo-sm2.png);
+    
+  }
+
+  /* Header ends here */
+
+  /* Main part begins here */
+
+  main article{
+    background-color: #c4c4c410;
+    background-image: url(/imagens/fundo-sm2.png);
+    background-size: cover;
+    width: 100%;
+  }
+
+  main article .text1{ 
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #DCDCDB;
+    padding-bottom: 6px;
+  }
+
+  main article .text1 .span1, main article .text1 .span2, main article .text1 .span3{
+    font-size: 4.8em;
+  }
+
+  main article .text1 .span2 p{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  main article .text1 section{
+    font-family: Alatsi;
+    text-align: left;
+    font-size: 4.4em;
+  }
+
+  main article .text1 section p img{
+    width: 100px;
+    height: 100px;
+  }
+
+  main article .text1 .hero-text{
+   display: none;
+   
+    
+  }
+
+  main article .text1 section {
+    margin-top: 250px;
+  }
+
+  /* Main part ends here */
+
+  /* Second part begins here */
+  
+  .WhoWeAre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .WhoWeAre h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 6.8em;
+  }
+
+  
+  .WhoWeAre p{
+    color: #48494A;
+    font-family: Alatsi;
+    padding: 15px;
+    font-size: 3.8em;
+    text-align: center;
+  }
+
+   /* Second part ends here */
+
+   /* Third part begins here */
+  
+   .details{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 100px;
+     font-family: Alatsi;
+   }
+
+   .details h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 6.8em;
+    
+   }
+
+   .details .capsule .money, .details .capsule .contract, .details .capsule .relation{
+    text-align: center;
+    margin-top: 25px;
+   }
+
+   .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
+    color: #403A34;
+    font-size: 4.7em;
+   }
+
+   .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
+     color: #9F9D9D;
+     font-size: 3.4em;
+     padding: 2.8px;
+   }
+
+   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+     width: 300px;
+     height: 300px;
+   }
+
+   
+
+   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+    display: flex;
+    margin: auto;
+   }
+   
+  .services{
+    display: none;
+   }
+  
+  .services-sm h2, .maps h2{
+    text-align: center;
+    font-family: Alatsi;
+    font-size: 6.8em;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .maps div iframe{
+    display: flex;
+    margin: auto;
+    width: 95%;
+    height: 1500px;
+    border-radius: 7px
+  }
+
+  /* Third part ends here */
+
+  /* Fourth part begins here */
+
+  .text{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Alatsi;
+    font-size: 6.7em;
+    margin-bottom: 100px ;
+  }
+
+  .text a{
+    color: #00B628;
+    text-decoration: none;
+  }
+
+  .text a:hover, text a:active{
+    color: #00B628;
+    text-decoration: underline;
+  }
+
+  /* Fourth part ends here */
+
+  /* Fifth part begins here */
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  
+  background-color: transparent;
+  width: 900px;
+  height: 470px;
+  
+  margin: auto;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 120px;
+  font-family: Alatsi;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+
+.flip-card-front h2{
+  padding-top: 15px;
+  font-size: 3em;
+}
+
+.flip-card-front .title{
+  font-size: 2.5em;
+}
+
+.flip-card-front img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.flip-card-front .swipe{
+  display: block;
+  background-color: var(--main-bg-color);
+  padding: 18px;
+  color: white;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 2.8em;
+  margin-top: 45px;
+  
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: var(--main-bg-color);
+  transform: rotateY(180deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+
+}
+
+.flip-card-back h2{
+  padding-top: 15px;
+  font-size: 4.8em;
+}
+
+
+.flip-card-back .links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.flip-card-back .links a img{
+  color: black;
+  width: 105px;
+  height: 105px;
+}
+
+.flip-card-back p a{
+  text-decoration: none;
+  background-color: #00B628;
+  color: white;
+  padding: 5px;
+  padding: 40.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 3.1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-back p a:active{
+  border: 1px solid #00B628;
+  background-color: transparent;
+  color: #00B628;
+}
+
+/* Fifth part ends here */
+
+/* Footer part begins here */
+
+  footer .footer-content {
+    background-image: url(/imagens/footer-sm.png);
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #BBBBBB;
+    font-size: 3em;
+  }
+
+  footer .footer-content h4{
+    color: #FFFFFF;
+    font-size: 1.4em;
+  }
+
+  footer .footer-content .address, footer .footer-content .team, footer .footer-content .contact, footer .footer-content .follow, footer .footer-content .footer-services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer .footer-content .line{
+    width: 70%;
+    display: flex;
+    margin: auto;
+  }
+
+  footer .footer-content .adjust{
+    display: none;
+  }
+
+  footer .footer-content .contact .contact-icons, footer .footer-content .follow .follow-icons{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  footer .footer-content .contact .contact-icons a, footer .footer-content .follow .follow-icons a{
+    padding: 10px;
+  }
+
+  footer .footer-content .team p span{
+    color: #00B628;
+  }
+
+  footer .footer-content .contact .contact-icons a img, footer .footer-content .follow .follow-icons a img{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    @font-face {
+      font-family: Alatsi;
+      src: url(/fonts/Alatsi-Regular.ttf);
+    }
+    
+    :root{
+      --main-bg-color: #202122;
+      --side-bg-color: #00B628;
+    }
+
+    /* Header begins here */
+
+    header{
+      background-image: url(/imagens/header-img.svg);
+      background-repeat: repeat-x;
+      background-size: contain;
+      background-position: top right;
+      
+      padding: 25px;
+     
+    }
+
+    header .menu-sm{
+      display: none;
+    }
+
+    header .top{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header .logo{
+      margin-left: -50px;
+      margin-top: -13px;
+      height: 50px;
+    }
+
+    header a{
+      text-decoration: none;
+      color: white;
+      font-family: Alatsi;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      transition: 0.1s ease-in-out;
+      
+    }
+
+    header a:hover{
+      transform:skew(15deg);
+      text-decoration: underline;
+      text-decoration-color: var(--side-bg-color);
+      color: white;
+
+      
+    }
+
+    header .top span a input{
+      background-color: var(--main-bg-color);
+      border: none;
+      font-family: Alatsi;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 15px;
+      width: 170px;
+      margin-top: -20px;
+      margin-right: -55px;
+      border: 1px solid white;
+      box-shadow: 0 1px 3px var(--main-bg-color);
+      border-radius: 15px;
+      margin-left: 10px;
+      transition: 0.4s ease-in-out;
+    }
+
+    header .top span a input:hover{
+      cursor: pointer;
+      transform: scale(1.02);
+
+    }
+
+    .bt-contact{
+      font-family: Alatsi;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Header ends here */
+
+    /* Main begins here */
+    @font-face {
+      font-family: Aldrich;
+      src: url(/fonts/Aldrich-Regular.ttf);
+    }
+
+    main article{
+      background-color: #c4c4c410;
+      margin: 10px;
+      background-image: url(/imagens/mediamodifier_cropped_image.png);
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      background-size: contain;
+      width: 97.3vw;
+      height: 85vh;
+      
+    }
+
+    main article .text1{ 
+      text-align: center;
+      
+    }
+    
+    mark{
+      background-color: var(--side-bg-color);
+      color: black;
+    }
+    
+    main article h1{ 
+      padding-left: 440px;
+      font-family: Aldrich;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      
+    }
+
+  
+    main article .text1 .span1{
+      font-size: 2.3em;
+      font-weight: lighter;
+      text-align: center;
+      color: var(--main-bg-color);
+    }
+
+    main article .text1 .span2{
+      font-size: 2.4em;
+      font-weight: lighter;
+      text-align: center;
+    }
+
+    main article .text1 .span3{
+      font-size: 2.5em;
+      font-weight: lighter;
+      text-align: left;
+      font-family: Aldrich;
+      color: var(--main-bg-color);;
+    }
+
+    main article .text1 section p{
+      display: none;
+    }
+
+    main article .text1 section img{
+      width: 26px;
+      height:25px;
+      margin-left: 30px;
+      padding-top: 1px;
+    }
+    /* Main ends here */
+
+    /* Second begins here */
+    .WhoWeAre h2{
+      text-align: center;
+      font-family: Alatsi;
+      font-size: 4em;
+      font-weight: 300;
+      color: #202122;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .WhoWeAre p{
+      margin: auto;
+      width: 90%;
+      font-size:1.8em;
+      font-family: Alatsi;
+      color: #48494A;
+    }
+    /* Second ends here */
+
+    /* Third begins here */
+    .details h2{
+      text-align: center;
+      font-family: Alatsi;
+      font-size: 4em;
+      font-weight: 300;
+      color: #202122;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+
+    .details .capsule{
+      display: flex;
+      justify-content: space-around;
+      margin: auto;
+    }
+
+    .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
+      text-align: center;
+      font-family: Alatsi;
+      font-weight: 300;
+      font-size: 1.9em;
+      color: #403A34;
+    }
+
+    
+    .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
+      display: block;
+      width: 140px;
+      height: 140px;
+      margin: auto;
+    }
+    
+    .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
+      display: block;
+      margin: auto;
+      width: 72%;
+      text-align: left;
+      font-family: Alatsi;
+      font-size: 1.2em;
+      color: #9F9D9D;
+      
+    }
+    /* Third ends here */
+
+    /* Fourth begins here */
+
+    .services-sm{
+      display: none;
+    }
+      
+    .services{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .services h2{
+      text-align: center;
+      font-family: Alatsi;
+      font-size: 4em;
+      font-weight: 300;
+      color: #202122;
+      margin-top: 150px;
+      margin-bottom: 50px;
+    }
+     
+    .services .CFTV, .services .alarm, .services .gates{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      
+      
+    }
+
+    .services .CFTV img, .services .alarm img, .services .gates img{
+      margin-left: 70px;
+      margin-right: 80px;
+      width: 410px;
+      height: 410px;
+      
+    }
+
+    .services .CFTV h3, .services .alarm h3, .services .gates h3{
+      font-size: 3em;
+      font-family: Alatsi;
+      font-weight: normal;
+      color: #202122;
+      text-align: center;
+    }
+
+    .services .CFTV p, .services .alarm p, .services .gates p{
+      
+      
+      font-family: Alatsi;
+      color: #48494A;
+      font-size: 1.5em;
+      
+    }
+
+    .services .CFTV .CFTV-text, .services .alarm .alarm-text, .services .gates .gates-text{
+      
+      text-align: center;
+      width: 40%;
+      margin-left: 100px;
+    }
+    
+    .services .cerca, .services .intercom{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    .services .cerca .cerca-text, .services .intercom .intercom-text{
+      text-align: center;
+      width: 40%;
+      margin-right: 100px;
+    }
+
+    .services .cerca img, .services .intercom img{
+      margin-left: 120px;
+      width: 410px;
+      height: 410px;
+      
+    }
+
+    .services .cerca h3, .services .intercom h3{
+      font-size: 3em;
+      font-family: Alatsi;
+      font-weight: normal;
+      color: #202122;
+      text-align: center;
+    }
+
+    .services .cerca p, .services .intercom p{
+      
+      
+      font-family: Alatsi;
+      color: #48494A;
+      font-size: 1.5em;
+      
+    }
+
+    /* Fourth ends here */
+
+    /* Five begins here */
+    .maps h2{
+      text-align: center;
+      font-family: Alatsi;
+      font-size: 4em;
+      font-weight: 300;
+      color: #202122;
+      margin-top: 100px;
+      margin-bottom: 50px;
+
+    }
+
+    .maps div iframe{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      border: 1px solid black;
+      border-radius: 10px;
+      height: 500px;
+      width: 82%;
+    }
+    /* Five ends here */
+
+    /* Sixty begins here */
+
+    .text{
+      text-align: center;
+      font-family: Alatsi;
+      font-size: 3.5em;
+      width: 90%;
+      font-weight: 300;
+      color: #202122;
+      
+      display: flex;
+      margin: auto;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+
+    .text p span a{
+      color: var(--side-bg-color);
+      text-decoration: none;
+      font-size: 1em;
+      
+    }
+
+    .text p span a:hover{
+      text-decoration: underline;
+    }
+
+    /* Sixty ends here */
+
+    /* Card part begins here */
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  
+  background-color: transparent;
+  width: 600px;
+  height: 370px;
+  margin: auto;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 120px;
+  font-family: Alatsi;
+  
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+
+.flip-card-front h2{
+  padding-top: 15px;
+  font-size: 2em;
+}
+
+.flip-card-front .title{
+  font-size: 1.5em;
+}
+
+.flip-card-front img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.flip-card-front .swipe{
+  display: block;
+  background-color: var(--main-bg-color);
+  padding: 12px;
+  color: white;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 2em;
+  margin-top: 36px;
+  
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: var(--main-bg-color);
+  transform: rotateY(180deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+  width: 600px;
+  height: 370px;
+
+}
+
+.flip-card-back h2{
+  padding-top: 15px;
+  font-size: 2.7em;
+}
+
+
+.flip-card-back .links{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: 110px;
+}
+
+.flip-card-back .links a img{
+  color: black;
+  width: 70px;
+  height: 70px;
+  transition: all 0.2s ease-in-out;
+}
+
+.flip-card-back .links a img:hover{
+  transform: scale(1.05);
+}
+.flip-card-back p a{
+  text-decoration: none;
+  background-color: #00B628;
+  color: white;
+  padding: 5px;
+  padding: 40.9%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-end-end-radius: 7px;
+  border-end-start-radius: 7px;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-back p a:active{
+  border: 1px solid #00B628;
+  background-color: transparent;
+  color: #00B628;
+}
+
+/* Card part ends here */
+
+    /* Seventh begins here */
+
+    footer .footer-content{
+      background-image: url(/imagens/footer.png);
+      background-repeat: repeat;
+      background-size: cover;
+      display: flex;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+      font-size: 1em;
+      width: 100%;
+    }
+
+    footer .footer-content .address h4, footer .footer-content .services h4, footer .footer-content .team h4, footer .footer-content .contact h4, footer .footer-content .follow h4{
+      color: white;
+      font-family: Alatsi;
+      font-weight: normal;
+      text-align: center;
+      width: 90%;
+      
+
+    }
+
+    .footer-content .contact a{
+      margin-left: 15px;
+    }
+
+    footer .footer-content .address h4, footer .footer-content .services h4{
+      width: 110%;
+    }
+
+    footer .footer-content .address .adjust, footer .footer-content .team .adjust, footer .footer-content .adjust{
+      visibility: hidden;
+    }
+
+    footer .footer-content .team{
+      padding-left: 30px;
+    }
+
+    footer .footer-content .address img{
+      width: 150px;
+      margin-left: 20px;
+    }
+
+    footer .footer-content .services img{
+      margin-left: 40px;
+    }
+
+    footer .footer-content .team img{
+      margin-left: 40px;
+    }
+
+    footer .footer-content .contact img{
+      margin-left: 40px;
+    }
+
+    footer .footer-content .contact p img{
+      display: flex;
+    }
+
+    footer .footer-content .follow img{
+      margin-left: 40px ;
+    }
+
+    footer .footer-content .address p, footer .footer-content .team p, footer .footer-content .contact p, footer .footer-content .follow p{
+      display: block;
+      margin: auto;
+      text-align: left;
+      color: #BBBBBB;
+      font-family: Alatsi;
+      width: 60%;
+     
+    }
+
+    footer .footer-content .services p{
+      width: 100%;
+      display: block;
+      margin-left: 50px;
+      text-align: left;
+      color: #BBBBBB;
+      font-family: Alatsi;
+    }
+
+    footer .footer-content .team p{
+      width: 100%;
+      margin-left: 15px;
+    }
+
+    footer .footer-content .services{
+      padding-top: 20px;
+      margin-right: 40px;
+    }
+}
