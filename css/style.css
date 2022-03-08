@@ -173,7 +173,7 @@
   .WhoWeAre h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 2.8em;
+    font-size: 2.2em;
   }
 
   
@@ -181,7 +181,7 @@
     color: #48494A;
     font-family: Alatsi;
     padding: 15px;
-    font-size: 1.4em;
+    font-size: 1em;
     text-align: center;
   }
 
@@ -200,7 +200,7 @@
    .details h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 2.8em;
+    font-size: 2.2em;
     
    }
 
@@ -211,12 +211,12 @@
 
    .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
     color: #403A34;
-    font-size: 1.7em;
+    font-size: 1.3em;
    }
 
    .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
      color: #9F9D9D;
-     font-size: 1.4em;
+     font-size: 1.1em;
      padding: 3px;
    }
 
@@ -225,6 +225,8 @@
    .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
     display: flex;
     margin: auto;
+    width: 125px;
+    height: 125px;
    }
    
   .services{
@@ -254,7 +256,7 @@
     text-align: center;
     margin-top: 50px;
     font-family: Alatsi;
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 30px ;
   }
 
@@ -393,7 +395,7 @@
     display: flex;
     flex-direction: column;
     color: #BBBBBB;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   footer .footer-content h4{
@@ -619,7 +621,7 @@
   .WhoWeAre h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 3.8em;
+    font-size: 3.1em;
   }
 
   
@@ -627,7 +629,7 @@
     color: #48494A;
     font-family: Alatsi;
     padding: 15px;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
   }
 
@@ -646,7 +648,7 @@
    .details h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 3.8em;
+    font-size: 3.1em;
     
    }
 
@@ -657,20 +659,20 @@
 
    .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
     color: #403A34;
-    font-size: 2.7em;
+    font-size: 2.4em;
    }
 
    .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
      color: #9F9D9D;
-     font-size: 2.4em;
+     font-size: 2em;
      padding: 3px;
    }
-
-   
 
    .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
     display: flex;
     margin: auto;
+    width: 190px;
+    height: 190px;
    }
    
   .services{
@@ -680,7 +682,7 @@
   .services-sm h2, .maps h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 3.8em;
+    font-size: 3.1em;
     margin-top: 100px;
     margin-bottom: 40px;
   }
@@ -700,7 +702,7 @@
     text-align: center;
     margin-top: 50px;
     font-family: Alatsi;
-    font-size: 3.5em;
+    font-size: 3.1em;
     margin-bottom: 30px ;
   }
 
@@ -1087,7 +1089,7 @@
   .WhoWeAre h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 5.8em;
+    font-size: 4.4em;
   }
 
   
@@ -1095,7 +1097,7 @@
     color: #48494A;
     font-family: Alatsi;
     padding: 15px;
-    font-size: 2.8em;
+    font-size: 2.1em;
     text-align: center;
   }
 
@@ -1114,7 +1116,7 @@
    .details h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 5.8em;
+    font-size: 4.4em;
     
    }
 
@@ -1125,25 +1127,20 @@
 
    .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
     color: #403A34;
-    font-size: 3.7em;
+    font-size: 3em;
    }
 
    .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
      color: #9F9D9D;
-     font-size: 3.4em;
+     font-size: 2.3em;
      padding: 2.8px;
    }
 
    .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
-     width: 300px;
-     height: 300px;
-   }
-
-   
-
-   .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
-    display: flex;
-    margin: auto;
+     width: 240px;
+     height: 240px;
+     display: flex;
+     margin: auto;
    }
    
   .services{
@@ -1153,7 +1150,7 @@
   .services-sm h2, .maps h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 5.8em;
+    font-size: 4.4em;
     margin-top: 100px;
     margin-bottom: 40px;
   }
@@ -1172,9 +1169,11 @@
 
   .text{
     text-align: center;
-    margin-top: 50px;
     font-family: Alatsi;
-    font-size: 5.5em;
+    font-size: 4em;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
     margin-bottom: 30px ;
   }
 
@@ -1329,7 +1328,7 @@
     display: flex;
     flex-direction: column;
     color: #BBBBBB;
-    font-size: 2.5em;
+    font-size: 2.1em;
   }
 
   footer .footer-content h4{
@@ -1493,8 +1492,8 @@
   }
 
   header .menu-sm .offcanvas .btn-close{
-    width: 50px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
   }
 
   header .menu-sm .offcanvas .offcanvas-body{
