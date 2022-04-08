@@ -8,12 +8,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(Alatsi-Regular.ttf);
+    src: url(/fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(Aldrich-Regular.ttf);
+    src: url(/fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -40,75 +40,67 @@
    justify-content: space-between;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-color: var(--main-bg-color);
+  #btn-id{
+    border: none;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body a{
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(32, 32, 32, 0.959);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-y: hidden
+  }
+
+  .sidenavOpen {
+
+    width: 250px;
+  }
+
+  .sidenav .link-menu-sm{
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    display: flex;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
     flex-direction: column;
     font-family: Alatsi;
     color:#00B628;
-    font-size: 2em;
+    font-size: 1.8em;
     transition: all 0.2s ease-in-out;
     padding-bottom: 30px;
     padding-top: 30px;
     text-align: center;
     width: 100%;
   }
-  
 
-  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+  
+  
+  .sidenav a:active{ 
+    transform: scale(1.008);
     text-decoration: underline white; 
   }
-
-  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
-    color:#00B628;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
-    color:#00B628;
-    font-family: Alatsi;
-    font-size: 1.9em;
-    width: 100%;
-    margin-bottom: -20px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
-    border: 1px solid white;
-    background-color: #00B628;
-    padding: 15px;
-    border-radius: 5px;
-    color: white;
-    width: 100%;
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3em;
+    margin-left: 50px;
     text-decoration: none;
+    color: #818181;
+    transition: 1s;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+  .sidenav .closebtn:active{
     text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
-    text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
-    transform: scale(1.05);
-    border-color: #00B628;
-    background-color: transparent;
-    color: #00B628;
-    
-  }
-
-  header .menu-sm .offcanvas .offcanvas-header h5{
-    font-size:2.2em;
-    
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-image: url(fundo-sm2.png);
-    
   }
 
   /* Header ends here */
@@ -117,7 +109,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(fundo-sm2.png);
+    background-image: url(/imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -160,7 +152,35 @@
     margin-top: 250px;
   }
 
+  main article .text1 .cta-btn{
+    display: none;
+  }
+
   /* Main part ends here */
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:40px;
+	background-color:var(--side-bg-color);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.float img{
+  display: block;
+  margin-top: 9px;
+  margin-left: 11px;  
+}
 
   /* Second part begins here */
   
@@ -236,7 +256,7 @@
   .services-sm h2, .maps h2{
     text-align: center;
     font-family: Alatsi;
-    font-size: 2.8em;
+    font-size: 2.2em;
     margin-top: 100px;
     margin-bottom: 40px;
   }
@@ -389,7 +409,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(footer-sm.png);
+    background-image: url(/imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -438,8 +458,15 @@
     height: 50px;
   }
 
-}
+  footer .disclaimer{
+      
+    background-color: #202122;
+    color: #BBBBBB;
+    font-size: 0.7em;
 
+  }
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -451,12 +478,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(fonts/Alatsi-Regular.ttf);
+    src: url(/fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(fonts/Aldrich-Regular.ttf);
+    src: url(/fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -467,7 +494,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(header-img.svg);
+    background-image: url(/imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -483,80 +510,67 @@
    justify-content: space-between;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-color: var(--main-bg-color);
+  #btn-id{
+    border: none;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body a{
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(32, 32, 32, 0.959);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-y: hidden
+  }
+
+  .sidenavOpen {
+
+    width: 300px;
+  }
+
+  .sidenav .link-menu-sm{
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    display: flex;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
     flex-direction: column;
     font-family: Alatsi;
     color:#00B628;
-    font-size: 3em;
+    font-size: 1.8em;
     transition: all 0.2s ease-in-out;
     padding-bottom: 30px;
     padding-top: 30px;
     text-align: center;
     width: 100%;
   }
-  
 
-  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+  
+  
+  .sidenav a:active{ 
+    transform: scale(1.008);
     text-decoration: underline white; 
   }
-
-  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
-    color:#00B628;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
-    color:#00B628;
-    font-family: Alatsi;
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
     font-size: 3em;
-    width: 100%;
-    margin-bottom: -20px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
-    border: 1px solid white;
-    background-color: #00B628;
-    padding: 15px;
-    border-radius: 5px;
-    color: white;
-    width: 100%;
+    margin-left: 50px;
     text-decoration: none;
+    color: #818181;
+    transition: 1s;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+  .sidenav .closebtn:active{
     text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
-    text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
-    transform: scale(1.05);
-    border-color: #00B628;
-    background-color: transparent;
-    color: #00B628;
-    
-  }
-
-  header .menu-sm .offcanvas .offcanvas-header h5{
-    font-size:2.9em;
-    
-  }
-
-  header .menu-sm .offcanvas .btn-close{
-    width: 50px;
-    height: 10px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-image: url(fundo-sm2.png);
-    
   }
 
   /* Header ends here */
@@ -565,7 +579,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(fundo-sm2.png);
+    background-image: url(/imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -606,6 +620,10 @@
 
   main article .text1 section {
     margin-top: 250px;
+  }
+
+  main article .text1 .cta-btn{
+    display: none;
   }
 
   /* Main part ends here */
@@ -844,10 +862,36 @@
 
 /* Fifth part ends here */
 
+.float{
+	position:fixed;
+	width:80px;
+	height:80px;
+	bottom:40px;
+	right:40px;
+	background-color:var(--side-bg-color);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.float img{
+  display: block;
+  margin-top: 9px;
+  margin-left: 11px;  
+  width: 60px;
+  height: 60px;
+}
+
+
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(footer-sm.png);
+    background-image: url(/imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -897,6 +941,13 @@
     height: 50px;
   }
 
+  footer .disclaimer{
+      
+    background-color: #202122;
+    color: #BBBBBB;
+    font-size: 1em;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -909,12 +960,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(Alatsi-Regular.ttf);
+    src: url(/fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(Aldrich-Regular.ttf);
+    src: url(/fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -925,7 +976,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(header-img.svg);
+    background-image: url(/imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -951,80 +1002,67 @@
     height: 140px;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-color: var(--main-bg-color);
+  #btn-id{
+    border: none;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body a{
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(32, 32, 32, 0.959);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-y: hidden
+  }
+
+  .sidenavOpen {
+
+    width: 250px;
+  }
+
+  .sidenav .link-menu-sm{
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    display: flex;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
     flex-direction: column;
     font-family: Alatsi;
     color:#00B628;
-    font-size: 5em;
+    font-size: 1.8em;
     transition: all 0.2s ease-in-out;
     padding-bottom: 30px;
     padding-top: 30px;
     text-align: center;
     width: 100%;
   }
-  
 
-  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+  
+  
+  .sidenav a:active{ 
+    transform: scale(1.008);
     text-decoration: underline white; 
   }
-
-  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
-    color:#00B628;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
-    color:#00B628;
-    font-family: Alatsi;
-    font-size: 4.2em;
-    width: 100%;
-    margin-bottom: -20px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
-    border: 1px solid white;
-    background-color: #00B628;
-    padding: 15px;
-    border-radius: 15px;
-    color: white;
-    width: 100%;
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 3em;
+    margin-left: 50px;
     text-decoration: none;
+    color: #818181;
+    transition: 1s;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+  .sidenav .closebtn:active{
     text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
-    text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
-    transform: scale(1.05);
-    border-color: #00B628;
-    background-color: transparent;
-    color: #00B628;
-    
-  }
-
-  header .menu-sm .offcanvas .offcanvas-header h5{
-    font-size:3.9em;
-    
-  }
-
-  header .menu-sm .offcanvas .btn-close{
-    width: 50px;
-    height: 10px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-image: url(fundo-sm2.png);
-    
   }
 
   /* Header ends here */
@@ -1033,7 +1071,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(fundo-sm2.png);
+    background-image: url(/imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -1074,6 +1112,10 @@
 
   main article .text1 section {
     margin-top: 250px;
+  }
+
+  main article .text1 .cta-btn{
+    display: none;
   }
 
   /* Main part ends here */
@@ -1322,7 +1364,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(footer-sm.png);
+    background-image: url(/imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -1383,12 +1425,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(Alatsi-Regular.ttf);
+    src: url(/fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(Aldrich-Regular.ttf);
+    src: url(/fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -1399,7 +1441,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(header-img.svg);
+    background-image: url(/imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -1425,80 +1467,67 @@
     height: 140px;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-color: var(--main-bg-color);
+  #btn-id{
+    border: none;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body a{
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(32, 32, 32, 0.959);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-y: hidden
+  }
+
+  .sidenavOpen {
+
+    width: 450px;
+  }
+
+  .sidenav .link-menu-sm{
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    display: flex;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
     flex-direction: column;
     font-family: Alatsi;
     color:#00B628;
-    font-size: 6em;
+    font-size: 3.8em;
     transition: all 0.2s ease-in-out;
     padding-bottom: 30px;
     padding-top: 30px;
     text-align: center;
     width: 100%;
   }
-  
 
-  header .menu-sm .offcanvas .offcanvas-body a:active{transform: scale(1.008);
+  
+  
+  .sidenav a:active{ 
+    transform: scale(1.008);
     text-decoration: underline white; 
   }
-
-  header .menu-sm .offcanvas .offcanvas-header .offcanvas-title{
-    color:#00B628;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact p{
-    color:#00B628;
-    font-family: Alatsi;
-    font-size: 5.2em;
-    width: 100%;
-    margin-bottom: -20px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input{
-    border: 1px solid white;
-    background-color: #00B628;
-    padding: 15px;
-    border-radius: 15px;
-    color: white;
-    width: 100%;
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 5em;
+    margin-left: 50px;
     text-decoration: none;
+    color: #818181;
+    transition: 1s;
   }
 
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a{
+  .sidenav .closebtn:active{
     text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input a:active{
-    text-decoration: none;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body .bt-contact input:active{
-    transform: scale(1.05);
-    border-color: #00B628;
-    background-color: transparent;
-    color: #00B628;
-    
-  }
-
-  header .menu-sm .offcanvas .offcanvas-header h5{
-    font-size:4.9em;
-    
-  }
-
-  header .menu-sm .offcanvas .btn-close{
-    width: 100px;
-    height: 100px;
-  }
-
-  header .menu-sm .offcanvas .offcanvas-body{
-    background-image: url(fundo-sm2.png);
-    
   }
 
   /* Header ends here */
@@ -1507,7 +1536,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(fundo-sm2.png);
+    background-image: url(/imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -1548,6 +1577,10 @@
 
   main article .text1 section {
     margin-top: 250px;
+  }
+
+  main article .text1 .cta-btn{
+    display: none;
   }
 
   /* Main part ends here */
@@ -1796,10 +1829,35 @@
 
 /* Fifth part ends here */
 
+.float{
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:40px;
+	right:40px;
+	background-color:var(--side-bg-color);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+.float img{
+  display: block;
+  margin-top: 11px;
+  margin-left: 15px;  
+  width: 75px;
+  height: 75px;
+}
+
 /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(footer-sm.png);
+    background-image: url(/imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -1856,22 +1914,33 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
+      
+    }
+
+    body{
+      overflow-x: hidden;
     }
     
     @font-face {
       font-family: Alatsi;
-      src: url(Alatsi-Regular.ttf);
+      src: url(/fonts/Alatsi-Regular.ttf);
     }
     
     :root{
       --main-bg-color: #202122;
       --side-bg-color: #00B628;
     }
+    
+    ::selection{
+      background-color: #00B628;
+      color: #fff;
+    }
 
     /* Header begins here */
+    
 
     header{
-      background-image: url(header-img.svg);
+      background-image: url(/imagens/header-img.svg);
       background-repeat: repeat-x;
       background-size: contain;
       background-position: top right;
@@ -1906,7 +1975,7 @@
     }
 
     header a:hover{
-      transform:skew(15deg);
+      
       text-decoration: underline;
       text-decoration-color: var(--side-bg-color);
       color: white;
@@ -1921,8 +1990,8 @@
       color: white;
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      padding: 15px;
-      width: 170px;
+      padding: 12px;
+      width: 150px;
       margin-top: -20px;
       margin-right: -55px;
       border: 1px solid white;
@@ -1950,13 +2019,13 @@
     /* Main begins here */
     @font-face {
       font-family: Aldrich;
-      src: url(fonts/Aldrich-Regular.ttf);
+      src: url(/fonts/Aldrich-Regular.ttf);
     }
 
     main article{
       background-color: #c4c4c410;
       margin: 10px;
-      background-image: url(mediamodifier_cropped_image.png);
+      background-image: url(/imagens/mediamodifier_cropped_image.webp);
       background-repeat: no-repeat;
       background-position: left bottom;
       background-size: contain;
@@ -2016,6 +2085,28 @@
       margin-left: 30px;
       padding-top: 1px;
     }
+
+    main article .text1 .cta-btn{
+      display: flex;
+      margin-left: 780px;      
+      border: 1px solid #00B628;
+      padding: 15px 50px;
+      border-radius: 12px;  
+      color: #00B628;
+      background-color: transparent;
+      font-family: Alatsi;
+      font-size: 1.2em;
+      
+    }
+
+    main article .text1 .cta-btn a{
+      text-decoration: none;
+      color: #00B628;
+    }
+
+    main article .text1 .cta-btn:hover{
+      box-shadow: 0.3px 1px 5px #01a324;
+    }
     /* Main ends here */
 
     /* Second begins here */
@@ -2035,7 +2126,111 @@
       font-size:1.8em;
       font-family: Alatsi;
       color: #48494A;
+      position: relative;
+      z-index: 1;
     }
+
+    .WhoWeAre p .underline-1::before{
+      content: "VISÃO";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 2s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes underline {
+      from { opacity: 0;}
+      to { opacity: 1;}
+    }
+
+    .WhoWeAre p .underline-2::before{
+      content: "segurança eletrônica";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 2.3s;
+      animation-fill-mode: forwards;
+    }
+    .WhoWeAre p .underline-3::before{
+      content: "sistemas CFTV";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 2.6s;
+      animation-fill-mode: forwards;
+    }
+    .WhoWeAre p .underline-4::before{
+      content: "para seu negócio e sua família.";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 2.9s;
+      animation-fill-mode: forwards;
+    }
+    .WhoWeAre p .underline-5::before{
+      content: "Alagoinhas";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 3.2s;
+      animation-fill-mode: forwards;
+    }
+    .WhoWeAre p .underline-6::before{
+      content: "principais marcas do mercado";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 3.5s;
+      animation-fill-mode: forwards;
+    }
+    .WhoWeAre p .underline-7::before{
+      content: "entre em contato";
+      position: absolute;
+      z-index: 0;
+      opacity: 0;
+      text-decoration: underline;
+      text-decoration-color: #00B628;
+      transition: all 0.2s ease-in-out;
+      animation-name: underline;
+      animation-duration: 1s;
+      animation-delay: 3.8s;
+      animation-fill-mode: forwards;
+      
+    }
+ 
+    
+
     /* Second ends here */
 
     /* Third begins here */
@@ -2051,8 +2246,9 @@
 
     .details .capsule{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       margin: auto;
+      margin-right: 90px;
     }
 
     .details .capsule .money h4, .details .capsule .contract h4, .details .capsule .relation h4{
@@ -2063,19 +2259,20 @@
       color: #403A34;
     }
 
-    
+  
+  
     .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
       display: block;
       width: 140px;
       height: 140px;
-      margin: auto;
+     
     }
     
     .details .capsule .money p, .details .capsule .contract p, .details .capsule .relation p{
       display: block;
       margin: auto;
-      width: 72%;
-      text-align: left;
+      width: 80%;
+      text-align: center;
       font-family: Alatsi;
       font-size: 1.2em;
       color: #9F9D9D;
@@ -2155,11 +2352,11 @@
     .services .cerca .cerca-text, .services .intercom .intercom-text{
       text-align: center;
       width: 40%;
-      margin-right: 100px;
+      margin-left: 50px;
     }
 
     .services .cerca img, .services .intercom img{
-      margin-left: 120px;
+      margin-left: 180px;
       width: 410px;
       height: 410px;
       
@@ -2371,10 +2568,16 @@
 
 /* Card part ends here */
 
+.float{
+	display: none;
+}
+
+
+
     /* Seventh begins here */
 
     footer .footer-content{
-      background-image: url(footer.png);
+      background-image: url(/imagens/footer.webp);
       background-repeat: repeat;
       background-size: cover;
       display: flex;
@@ -2464,5 +2667,12 @@
     footer .footer-content .services{
       padding-top: 20px;
       margin-right: 40px;
+    }
+
+    footer .disclaimer{
+      
+      background-color: #202122;
+      color: #BBBBBB;
+
     }
 }

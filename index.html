@@ -4,49 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Contando com uma equipe técnica especialista, somos a solução mais eficiente em segurança eletrônica, trabalhamos com câmeras até automação de portões, atendemos Alagoinhas e região. Chamou, vamos até você!">
+
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/svg" sizes="40x40" href="imagens/logo-icon.svg">
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
 
-    <title>VISÃO | Tudo em Segurança Eletrônica</title>
+
+
+    <title> Tudo em Segurança Eletrônica | VISÃO </title>
 </head>
 <body>
 <!--First part here-->
     <!--Header here-->
     <header>
             <div class="top">
-                    <img src="imagens/logo.svg" class="logo">
+                    <img src="imagens/logo.svg" class="logo" loading="lazy">
                     <a href="#WhoWeAre-Link">Quem Somos</a>
                     <a href="#maps-link">Onde Estamos</a>
-                    <a href="#services-sm-link">Serviços</a>
+                    <a href="#services-link">Serviços</a>
                     <a href="#card-link">Nossas Redes</a>
                     <span class="bt-contact">
                         Entre em Contato
-                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575992011933. "><input type="button" value="ENTRAR"></a>
+                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575991946457. "><input type="button" value="CHAMAR"></a>
                     </span>
             </div>
             <div class="menu-sm">
-                <img src="imagens/logo.svg" class="logo">
-                <button class="btn btn-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="imagens/menu.svg" class="menu-img"></button>
+                <img src="imagens/logo.svg" class="logo" loading="lazy">
+                <button id="btn-id" class="bg-transparent"><img src="/imagens/menu.svg" class="menu-img"></button>
             
-                <div class="offcanvas offcanvas-end w-75" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                  <div class="offcanvas-header bg-dark">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
-                  <div class="offcanvas-body ">
-                    <a href="#WhoWeAre-Link">Quem Somos</a>
-                    <a href="#maps-link">Onde Estamos</a>
-                    <a href="services-link">Serviços</a>
-                    <a href="#card-link">Nossas Redes</a>
-                    <span class="bt-contact">
-                        <p>Entre em Contato:</p>
-                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575992011933."><input type="button" value="ENTRAR"></a>
-                    </span>
-                  </div>
+                <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#WhoWeAre-Link" onclick="closeNav()" class="link-menu-sm">Quem Somos</a>
+                  <a href="#services-sm-link" onclick="closeNav()"  class="link-menu-sm">Serviços</a>
+                  <a href="#maps-link" onclick="closeNav()" class="link-menu-sm">Onde Estamos</a>
+                  <a href="#card-link" onclick="closeNav()" class="link-menu-sm">Contato</a>
                 </div>
             </div>
     </header>
@@ -55,49 +50,59 @@
     <!--Presentation text begin-->
     <main>
         <article>
-          <div class="text1">
-              <h1><span class="span1">Tudo em</span><span class="span2"><p>Segurança</p></span><span class="span3">Residencial e Comercial</span></h1>
+          <div class="text1" id="text1">
+              <h1><strong><span class="span1">Tudo em</span><span class="span2"><p>Segurança</p></span><span class="span3">Residencial e Comercial</span></h1></strong>
+              <button class="cta-btn"><a href="#WhoWeAre-Link">Saiba Mais</a></button>
               <section>
-                  <p><img src="imagens/checked.svg" class="checkbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  <p><img src="imagens/checked.svg" class="checkbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  <p><img src="imagens/checked.svg" class="checkbox">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                  <p><img src="/imagens/checked.svg" class="checkbox" loading="lazy">Segurança Eletrônica e Digital</p>
+                  <p><img src="/imagens/checked.svg" class="checkbox" loading="lazy">Manuntenção e Instalação</p>
+                  <p><img src="/imagens/checked.svg" class="checkbox" loading="lazy">Planejamento e Execução</p>
               </section>
+              
           </div>
+          
      
        </article>
     </main>
     <!--Presentation text end-->
+    
 
 <!--First part end here--> 
 
 <!--Second part begins here--> 
     <section class="WhoWeAre" id="WhoWeAre-Link">
         <h2>Quem Somos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem suspendisse ornare potenti vestibulum tristique elit. Sem quis semper nisi quam egestas at. Aliquet sed volutpat fames sed mattis nec, praesent aliquet. Praesent dignissim leo at duis sit feugiat. Arcu in nec duis mauris ultrices sit eget dolor. Non ut aliquam nulla.
+        <p><span class="underline-1"></span>VISÃO, uma empresa especializada em <span class="underline-2"></span>segurança  eletrônica, trabalhamos com todo tipo de equipamento, em especial com <span class="underline-3"></span>sistemas CFTV, indispensável para você que quer mais segurança <span class="underline-4"></span>para seu negócio e sua família.
+          
+        Temos mais de 2 anos no mercado, estamos localizados em <span class="underline-5"></span>Alagoinhas, e também atendemos á regiões adjacentes.
+        
+        Nossa equipe trabalha com as <span class="underline-6"></span>principais marcas do mercado, como a lntelbras, GIGA, Citrox e outras.
+          
+        Nosso objetivo é oferecer para você a segurança que precisa, ao mesmo tempo sem perder a liberdade que merece, atendemos e avaliamos o serviço a domícílio, <span class="underline-7"></span>entre em contato e peça um orçamento com nossos profissionais!
         </p>
     </section>
 <!--Second part ends here--> 
 
 <!--third part begins here--> 
     <container class="details">
-        <h2>Nosso Diferencial</h2>
+        <h2>Nossos Valores</h2>
          <div class="capsule">
             <div class="money">
-                <img src="imagens/money.svg" alt="">
-                <h4>Lorem ipsum dolor sit.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod tellus elementum id.</p>
+                <img src="/imagens/money.svg" alt="" loading="lazy">
+                <h4>Valor Acessível</h4>
+                <p>Nosso orçamento é feito no local, com qualidade e preço justo.</p>
             </div>
 
             <div class="contract">
-                <img src="imagens/compromise.svg" alt="">
-                <h4>Lorem ipsum dolor sit.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod tellus elementum id.</p>
+                <img src="/imagens/compromise.svg" alt="" loading="lazy">
+                <h4>Garantia de Serviço</h4>
+                <p>Garantimos nosso serviço pelo prazo de 3 meses.</p>
             </div>
 
             <div class="relation">
-                <img src="imagens/people.svg" alt="">
-                <h4>Lorem ipsum dolor sit.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod tellus elementum id.</p>
+                <img src="/imagens/people.svg" alt="" loading="lazy">
+                <h4>Compromisso</h4>
+                <p>Agilidade e responsabilidade no serviço.</p>
             </div>
          </div>
     </container>
@@ -114,38 +119,33 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagens/CFTV.png" class="d-block w-100" alt="...">
+            <img src="/imagens/CFTV.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imagens/cerca.png" class="d-block w-100" alt="...">
+            <img src="/imagens/cerca.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imagens/Alarms.png" class="d-block w-100" alt="...">
+            <img src="/imagens/Alarms.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imagens/porteiro.png" class="d-block w-100" alt="...">
+            <img src="/imagens/porteiro.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imagens/Gates.png" class="d-block w-100" alt="...">
+            <img src="/imagens/Gates.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              
             </div>
           </div>
         </div>
@@ -163,10 +163,10 @@
     <section class="services" id="services-link">
         <h2>Nossos Serviços</h2>
         <div class="CFTV">
-            <img src="imagens/CFTV.png" alt="">
+            <img src="/imagens/CFTV.webp" alt="" loading="lazy">
             <span class="CFTV-text">
                 <h3>Sistemas CFTV</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem suspendisse ornare potenti vesti</p>
+                <p>CFTV é a sigla de Circuito Fechado de TV, o CFTV engloba um conjunto de equipamentos que, quando ligados a uma central, oferecem ao estabelecimento comercial ou à residência um serviço de segurança por meio de imagens. Trabalhamos com a instalação e manutenção das câmeras e demais dispositivos.</p>
             </span>
         </div>
 
@@ -175,18 +175,18 @@
         <div class="cerca">
             <span class="cerca-text">
                 <h3>Cerca Elétrica</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem suspendisse ornare potenti vesti</p>
+                <p>A cerca elétrica é uma das alternativas de segurança mais utilizadas, principalmente em estabelecimentos comerciais. Ela funciona como uma proteção extra para o local utilizando energia elétrica. Portanto, essas cercas possuem eletricidade. Em geral, o aumento da conta de energia não é nem notado, fazendo com que tenha um custo baixo para manter.</p>
             </span>
-            <img src="imagens/cerca.png" alt="">
+            <img src="/imagens/cerca.webp" alt="" loading="lazy">
         </div>
 
         <hr>
 
         <div class="alarm">
-            <img src="imagens/Alarms.png" alt="">
+            <img src="/imagens/Alarms.webp" alt="" loading="lazy">
             <span class="alarm-text">
                 <h3>Sistemas de Alarme</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem suspendisse ornare potenti vesti</p>
+                <p>Um sistema de alarme é um conjunto de equipamentos eletroeletrônicos cuja finalidade é informar a violação do perímetro ou local protegido, através de um sinal sonoro visual. Este sistema é um dos meios mais eficientes e baratos para prevenir acessos não autorizados, situações de perigo, entre outros.</p>
             </span>
         </div>
 
@@ -195,18 +195,18 @@
         <div class="intercom">
             <span class="intercom-text">
                 <h3>Porteiro Eletrônico</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem suspendisse ornare potenti vesti</p>
+                <p>O porteiro eletrônico é um sistema de segurança que é cada vez mais adotado dentro de condomínios, casas ou estabelecimentos comerciais. Essa medida de segurança consiste em instalar um interfone que fica no interior do imóvel, que vem com um dispositivo com microfone embutido, e também contendo uma câmera, no caso do vídeo porteiro.</p>
             </span>
-            <img src="imagens/porteiro.png" alt="">
+            <img src="/imagens/porteiro.webp" alt="" loading="lazy">
         </div>
 
         <hr>
 
         <div class="gates">
-            <img src="imagens/Gates.png" alt="">
+            <img src="/imagens/Gates.webp" alt="" loading="lazy">
             <span class="gates-text">
                 <h3>Automação de Portões</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus sem suspendisse ornare potenti vesti</p>
+                <p>Nos tempos atuais os portões de garagem necessitam de automação, tanto os domésticos quanto os prediais. Isso porque a automatização de portão proporciona mais praticidade para seus usuários, facilitando a rotina das pessoas. Existem diversos mecanismos que proporcionam a automatização de portão, é preciso avaliar qual é o melhor equipamento que se adeque á sua necessidade.</p>
             </span>
         </div>
 
@@ -235,7 +235,7 @@
 <div class="flip-card" id="card-link">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="imagens/logoalt.svg" alt="Avatar">
+      <img src="/imagens/logoalt.svg" alt="Avatar">
       <h2>Robson Costa</h2>
       <p class="title">Responsável Técnico</p>
       <p class="swipe">Passe o Mouse</p>
@@ -243,17 +243,19 @@
     <div class="flip-card-back">
       <h2>Nossas Redes:</h2>
       <div class="links">
-        <a href="https://www.instagram.com/visaosegeletronica/?hl=pt-br"><img src="imagens/instagram.svg"></img></a>
-        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575992011933."><img src="imagens/whatsapp.svg"></img></a>
-        <a href="https://github.com/KaliRodri"><img src="imagens/github.svg"></img></a>
-        <a href="https://www.facebook.com/visaosegeletronica"><img src="imagens/facebook.svg"></img></a>
+        <a href="https://www.instagram.com/visaosegeletronica/?hl=pt-br"><img src="/imagens/instagram.svg" loading="lazy"></img></a>
+        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575992011933."><img src="/imagens/whatsapp.svg" loading="lazy"></img></a>
+        
+        <a href="https://www.facebook.com/visaosegeletronica"><img src="/imagens/facebook.svg" loading="lazy"></img></a>
       </div>
       <p><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575992011933.">Contato</a></p>
     </div>
   </div>
 </div>
 <!--fifth part ends here-->
-
+<a href="http://api.whatsapp.com/send?1=pt_BR&phone=5575991946457." target="_blank" class="float">
+  <img src="/imagens/whatsappfloat.svg">
+</a>
 <!--footer part ends here--> 
 <footer>
 
@@ -261,7 +263,7 @@
 
       <div class="address">
         <h4>Endereço</h4>
-        <img src="imagens/linha.svg" alt="" class="line">
+        <img src="/imagens/linha.svg" alt="" class="line" loading="lazy">
         <p> Alagoinhas, BA </p>
         <p class="adjust">..........</p>
         <p class="adjust">..........</p>
@@ -275,27 +277,42 @@
 
       <div class="footer-services">
         <h4>Serviços</h4>
-        <img src="imagens/linha.svg" alt="" class="line">
+        <img src="/imagens/linha.svg" alt="" class="line" loading="lazy">
         <p>Sistemas CFTV</p>
         <p>Instalação de Alarme</p>
         <p>Cerca Elétrica</p>
         <p>Porteiro Eletrônico</p>
         <p>Automação de Portões</p>
+      </div>
+
+      <div class="footer-services">
+        <h4>Redes</h4>
+        <img src="/imagens/linha.svg" alt="" class="line" loading="lazy">
+        <p>Whatsapp</p>
+        <p>Facebook</p>
+        <p>Instagram</p>
         
       </div>
 
       <div class="team">
         <h4>Nosso Time</h4>
-        <img src="imagens/linha.svg" alt="" class="line">
+        <img src="/imagens/linha.svg" alt="" class="line" loading="lazy">
         <p>Responsável Técnico: <span>Robson Costa</span></p>
-        <p>Manuntenção de Sistemas: <span>Ian Rodrigo</span></p>
+        <p>Manutenção de Sistemas: <span>Ian Rodrigo</span></p>
         <p class="adjust">..........</p>
         <p class="adjust">..........</p>
       </div>
     </div>
+
+    <div class="disclaimer">
+      <center>
+       VISÃO SEGURANÇA ELETRÔNICA ©2021. TODOS OS DIREITOS RESERVADOS
+      </center>
+    </div>
 </footer>
 
-<script src="js/scripts.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/scrollscripts.js"></script>
 
 <!--Bootstrap Js-->
     
@@ -303,8 +320,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+<script src="/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+<script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
     
 </body>
 </html>
