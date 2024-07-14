@@ -8,12 +8,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(fonts/Alatsi-Regular.ttf);
+    src: url(./Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(fonts/Aldrich-Regular.ttf);
+    src: url(./Aldrich-Regular.ttf);
   }
   
   :root{
@@ -24,7 +24,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(imagens/header-img.svg);
+    background-image: url(./header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -107,7 +107,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(imagens/fundo-sm2.webp);
+    background-image: url(./fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -142,8 +142,6 @@
 
   main article .text1 .hero-text{
    display: none;
-   
-    
   }
 
   main article .text1 section {
@@ -407,7 +405,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(imagens/footer-sm.webp);
+    background-image: url(./footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -476,12 +474,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(fonts/Alatsi-Regular.ttf);
+    src: url(./Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(fonts/Aldrich-Regular.ttf);
+    src: url(./Aldrich-Regular.ttf);
   }
   
   :root{
@@ -492,7 +490,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(imagens/header-img.svg);
+    background-image: url(./header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -577,7 +575,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(imagens/fundo-sm2.webp);
+    background-image: url(./fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -612,8 +610,6 @@
 
   main article .text1 .hero-text{
    display: none;
-   
-    
   }
 
   main article .text1 section {
@@ -889,7 +885,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(imagens/footer-sm.webp);
+    background-image: url(./footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -958,12 +954,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(/fonts/Alatsi-Regular.ttf);
+    src: url(./Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(/fonts/Aldrich-Regular.ttf);
+    src: url(./Aldrich-Regular.ttf);
   }
   
   :root{
@@ -1069,7 +1065,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(imagens/fundo-sm2.webp);
+    background-image: url(./fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -1362,7 +1358,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(imagens/footer-sm.webp);
+    background-image: url(./footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -1423,12 +1419,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(fonts/Alatsi-Regular.ttf);
+    src: url(./Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(fonts/Aldrich-Regular.ttf);
+    src: url(./Aldrich-Regular.ttf);
   }
   
   :root{
@@ -1439,7 +1435,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(header-img.svg);
+    background-image: url(./header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -1534,7 +1530,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(imagens/fundo-sm2.webp);
+    background-image: url(./fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -1853,7 +1849,7 @@
 /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(imagens/footer-sm.webp);
+    background-image: url(./footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -1919,7 +1915,7 @@
     
     @font-face {
       font-family: Alatsi;
-      src: url(fonts/Alatsi-Regular.ttf);
+      src: url(./Alatsi-Regular.ttf);
     }
     
     :root{
@@ -1936,7 +1932,7 @@
     
 
     header{
-      background-image: url(header-img.svg);
+      background-image: url(./header-img.svg);
       background-repeat: repeat-x;
       background-size: contain;
       background-position: top right;
@@ -2012,13 +2008,13 @@
     /* Main begins here */
     @font-face {
       font-family: Aldrich;
-      src: url(fonts/Aldrich-Regular.ttf);
+      src: url(./Aldrich-Regular.ttf);
     }
 
     main article{
       background-color: #c4c4c410;
       margin: 10px;
-      background-image: url(imagens/mediamodifier_cropped_image.webp);
+      background-image: url(./mediamodifier_cropped_image.webp);
       background-repeat: no-repeat;
       background-position: left bottom;
       background-size: contain;
@@ -2570,7 +2566,7 @@
     /* Seventh begins here */
 
     footer .footer-content{
-      background-image: url(imagens/footer.webp);
+      background-image: url(./footer.webp);
       background-repeat: repeat;
       background-size: cover;
       display: flex;
