@@ -8,12 +8,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(/fonts/Alatsi-Regular.ttf);
+    src: url(fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(/fonts/Aldrich-Regular.ttf);
+    src: url(fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -24,7 +24,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(/imagens/header-img.svg);
+    background-image: url(imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -81,8 +81,6 @@
     width: 100%;
   }
 
-  
-  
   .sidenav a:active{ 
     transform: scale(1.008);
     text-decoration: underline white; 
@@ -109,7 +107,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(/imagens/fundo-sm2.webp);
+    background-image: url(imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -409,7 +407,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(/imagens/footer-sm.webp);
+    background-image: url(imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -478,12 +476,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(/fonts/Alatsi-Regular.ttf);
+    src: url(fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(/fonts/Aldrich-Regular.ttf);
+    src: url(fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -494,7 +492,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(/imagens/header-img.svg);
+    background-image: url(imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -579,7 +577,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(/imagens/fundo-sm2.webp);
+    background-image: url(imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -891,7 +889,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(/imagens/footer-sm.webp);
+    background-image: url(imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -976,7 +974,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(/imagens/header-img.svg);
+    background-image: url(imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -1071,7 +1069,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(/imagens/fundo-sm2.webp);
+    background-image: url(imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -1364,7 +1362,7 @@
   /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(/imagens/footer-sm.webp);
+    background-image: url(imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -1425,12 +1423,12 @@
   
   @font-face {
     font-family: Alatsi;
-    src: url(/fonts/Alatsi-Regular.ttf);
+    src: url(fonts/Alatsi-Regular.ttf);
   }
 
   @font-face {
     font-family: Aldrich;
-    src: url(/fonts/Aldrich-Regular.ttf);
+    src: url(fonts/Aldrich-Regular.ttf);
   }
   
   :root{
@@ -1441,7 +1439,7 @@
   /* Header begins here */
 
   header{
-    background-image: url(/imagens/header-img.svg);
+    background-image: url(imagens/header-img.svg);
     background-repeat: repeat-x;
     background-size: cover;
     background-position: bottom;
@@ -1536,7 +1534,7 @@
 
   main article{
     background-color: #c4c4c410;
-    background-image: url(/imagens/fundo-sm2.webp);
+    background-image: url(imagens/fundo-sm2.webp);
     background-size: cover;
     width: 100%;
   }
@@ -1647,8 +1645,6 @@
      width: 300px;
      height: 300px;
    }
-
-   
 
    .details .capsule .money img, .details .capsule .contract img, .details .capsule .relation img{
     display: flex;
@@ -1857,7 +1853,7 @@
 /* Footer part begins here */
 
   footer .footer-content {
-    background-image: url(/imagens/footer-sm.webp);
+    background-image: url(imagens/footer-sm.webp);
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -1923,7 +1919,7 @@
     
     @font-face {
       font-family: Alatsi;
-      src: url(/fonts/Alatsi-Regular.ttf);
+      src: url(fonts/Alatsi-Regular.ttf);
     }
     
     :root{
@@ -1940,7 +1936,7 @@
     
 
     header{
-      background-image: url(/imagens/header-img.svg);
+      background-image: url(imagens/header-img.svg);
       background-repeat: repeat-x;
       background-size: contain;
       background-position: top right;
@@ -1979,8 +1975,6 @@
       text-decoration: underline;
       text-decoration-color: var(--side-bg-color);
       color: white;
-
-      
     }
 
     header .top span a input{
@@ -2004,7 +1998,6 @@
     header .top span a input:hover{
       cursor: pointer;
       transform: scale(1.02);
-
     }
 
     .bt-contact{
@@ -2019,13 +2012,13 @@
     /* Main begins here */
     @font-face {
       font-family: Aldrich;
-      src: url(/fonts/Aldrich-Regular.ttf);
+      src: url(fonts/Aldrich-Regular.ttf);
     }
 
     main article{
       background-color: #c4c4c410;
       margin: 10px;
-      background-image: url(/imagens/mediamodifier_cropped_image.webp);
+      background-image: url(imagens/mediamodifier_cropped_image.webp);
       background-repeat: no-repeat;
       background-position: left bottom;
       background-size: contain;
@@ -2577,7 +2570,7 @@
     /* Seventh begins here */
 
     footer .footer-content{
-      background-image: url(/imagens/footer.webp);
+      background-image: url(imagens/footer.webp);
       background-repeat: repeat;
       background-size: cover;
       display: flex;
